@@ -119,103 +119,18 @@ BUTTONS
 =========================== */
 
 .buttons{
-
-display:flex;
-
-gap:20px;
-
-margin-bottom:30px;
-
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:25px;
 }
-
-.btn{
-
-background:#38bdf8;
-
-color:white;
-
-padding:14px 32px;
-
-text-decoration:none;
-
-border-radius:40px;
-
-font-weight:600;
-
-transition:.4s;
-
-}
-
-.btn:hover{
-
-background:#0ea5e9;
-
-transform:translateY(-4px);
-
-}
-
-.btn2{
-
-border:2px solid #38bdf8;
-
-padding:14px 32px;
-
-border-radius:40px;
-
-text-decoration:none;
-
-color:white;
-
-transition:.4s;
-
-font-weight:600;
-
-}
-
-.btn2:hover{
-
-background:#38bdf8;
-
-}
-
-/* ===========================
-SOCIAL ICONS
-=========================== */
 
 .social{
-
-display:flex;
-
-gap:18px;
-
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:20px;
 }
-
-.social a{
-
-width:50px;
-
-height:50px;
-
-background:#1e293b;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-border-radius:50%;
-
-text-decoration:none;
-
-color:white;
-
-font-size:22px;
-
-transition:.4s;
-
-}
-
 .social a:hover{
 
 background:#38bdf8;

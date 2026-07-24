@@ -1,113 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Jamuna J | Data Analyst</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-body{background:#0f172a;color:#fff;line-height:1.6}
-header{position:sticky;top:0;background:#111827;padding:15px 8%;display:flex;justify-content:space-between}
-nav a{color:#fff;text-decoration:none;margin:0 12px}
-.hero{padding:90px 8%;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}
-.hero h1{font-size:52px}.accent{color:#f97316}
-.btn{display:inline-block;margin-top:20px;padding:12px 24px;background:#f97316;color:#fff;text-decoration:none;border-radius:8px}
-section{padding:60px 8%}
-h2{color:#f97316;margin-bottom:20px}
-.card{background:#1e293b;padding:20px;border-radius:12px;margin:15px 0}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
-footer{text-align:center;padding:20px;background:#111827}
-input,textarea{width:100%;padding:10px;margin:8px 0;border-radius:8px;border:none}
-button{background:#f97316;color:#fff;border:none;padding:10px 20px;border-radius:8px}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamuna J | Data Analyst Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
+
 <body>
+
+<!-- ================= NAVBAR ================= -->
+
 <header>
-<h3>Jamuna J</h3>
+
+<div class="logo">
+    <span>Jamuna J</span>
+</div>
+
 <nav>
+
+<a href="#home">Home</a>
 <a href="#about">About</a>
 <a href="#education">Education</a>
 <a href="#skills">Skills</a>
 <a href="#internship">Internship</a>
 <a href="#projects">Projects</a>
+<a href="#certificates">Certificates</a>
 <a href="#contact">Contact</a>
+
 </nav>
+
+<div class="menu-btn">
+<i class="fas fa-bars"></i>
+</div>
+
 </header>
 
-<section class="hero">
-<div>
-<h1>Turning Raw Data into <span class="accent">Clear Stories</span></h1>
-<p>Data Analyst | B.Tech Information Technology Student</p>
-<a class="btn" href="#contact">Contact Me</a>
+<!-- ================= HOME ================= -->
+
+<section class="home" id="home">
+
+<div class="home-text">
+
+<h3>Hello, I'm</h3>
+
+<h1>Jamuna J</h1>
+
+<h2>Data Analyst</h2>
+
+<p>
+
+Turning raw data into meaningful insights using
+Python, SQL, Excel, Power BI and Tableau.
+
+</p>
+
+<div class="buttons">
+
+<a href="#projects" class="btn">
+View Projects
+</a>
+
+<a href="resume.pdf" class="btn2" download>
+Download Resume
+</a>
+
 </div>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fas fa-envelope"></i></a>
+
+</div>
+
+</div>
+
+<div class="home-image">
+
+<img src="profile.jpg" alt="Profile">
+
+</div>
+
 </section>
 
-<section id="about">
-<h2>About Me</h2>
-<div class="card">
-<p>I am Jamuna J, a B.Tech Information Technology student passionate about Data Analytics. I enjoy using Python, SQL, Excel, Power BI and Tableau to clean, analyze and visualize data for meaningful insights.</p>
+<!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+<h2 class="heading">
+
+About Me
+
+</h2>
+
+<div class="about-container">
+
+<p>
+
+I am a passionate Information Technology student with
+a strong interest in Data Analytics.
+
+I enjoy transforming raw datasets into meaningful
+insights using Python, SQL, Excel, Power BI and Tableau.
+
+I love solving real-world business problems through
+data visualization and machine learning.
+
+</p>
+
 </div>
+
 </section>
 
-<section id="education">
-<h2>Education</h2>
-<div class="card">
-<h3>Selvam College of Technology</h3>
-<p>B.Tech Information Technology (2023–2027)</p>
-<p>CGPA: 9.02</p>
+<!-- ================= EDUCATION ================= -->
+
+<section class="education" id="education">
+
+<h2 class="heading">
+Education
+</h2>
+
+<div class="timeline">
+
+<div class="box">
+
+<h3>B.Tech Information Technology</h3>
+
+<h4>Selvam College of Technology</h4>
+
+<p>2023 - 2027</p>
+
+<p>CGPA : 9.02</p>
+
 </div>
-<div class="card">
-<h3>Mohanur Girls Higher Secondary School</h3>
-<p>Higher Secondary - 82.17%</p>
+
+<div class="box">
+
+<h3>Higher Secondary</h3>
+
+<h4>Mohanur Girls Higher Secondary School</h4>
+
+<p>82.17%</p>
+
 </div>
+
+</div>
+
 </section>
 
-<section id="skills">
-<h2>Skills</h2>
-<div class="grid">
-<div class="card">Python</div>
-<div class="card">SQL</div>
-<div class="card">Excel</div>
-<div class="card">Power BI</div>
-<div class="card">Tableau</div>
-<div class="card">Communication</div>
-<div class="card">Team Management</div>
-<div class="card">Data Visualization</div>
+<!-- ================= SKILLS ================= -->
+
+<section class="skills" id="skills">
+
+<h2 class="heading">
+
+Skills
+
+</h2>
+
+<div class="skill-container">
+
+<div class="skill-card">Python</div>
+
+<div class="skill-card">SQL</div>
+
+<div class="skill-card">Excel</div>
+
+<div class="skill-card">Power BI</div>
+
+<div class="skill-card">Tableau</div>
+
+<div class="skill-card">Java</div>
+
+<div class="skill-card">HTML</div>
+
+<div class="skill-card">CSS</div>
+
+<div class="skill-card">JavaScript</div>
+
+<div class="skill-card">Git</div>
+
+<div class="skill-card">GitHub</div>
+
 </div>
+
 </section>
+
+<!-- ================= INTERNSHIP ================= -->
 
 <section id="internship">
-<h2>Internship</h2>
+
+<h2 class="heading">
+
+Internship
+
+</h2>
+
 <div class="card">
+
 <h3>Data Analytics Intern</h3>
-<p>Worked on data analysis, visualization, Excel, Python and reporting techniques.</p>
+
+<p>
+
+Worked on Data Cleaning,
+Data Visualization,
+Dashboard Creation,
+Power BI,
+Excel,
+Python and Reporting.
+
+</p>
+
 </div>
+
 </section>
+
+<!-- ================= PROJECTS ================= -->
 
 <section id="projects">
-<h2>Projects</h2>
-<div class="card"><h3>Student Performance Analysis</h3><p>Analyzed student performance using Excel and Python.</p></div>
-<div class="card"><h3>AI Code Reviewer</h3><p>AI-powered application to review pull requests.</p></div>
-<div class="card"><h3>Cryptocurrency Price Prediction</h3><p>Prediction using Temporal Fusion Transformer.</p></div>
+
+<h2 class="heading">
+
+Projects
+
+</h2>
+
+<div class="project-container">
+
+<div class="project-card">
+
+<h3>Student Performance Analysis</h3>
+
+<p>
+
+Python • Excel • Power BI
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>AI Code Reviewer</h3>
+
+<p>
+
+HTML • CSS • JavaScript
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Cryptocurrency Price Prediction</h3>
+
+<p>
+
+Python • Machine Learning
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Sentiment Analysis</h3>
+
+<p>
+
+Python • NLP • Streamlit
+
+</p>
+
+</div>
+
+</div>
+
 </section>
+
+<!-- ================= CERTIFICATES ================= -->
+
+<section id="certificates">
+
+<h2 class="heading">
+
+Certificates
+
+</h2>
+
+<div class="certificate-container">
+
+<div class="certificate-card">
+
+Python for Data Science
+
+</div>
+
+<div class="certificate-card">
+
+Data Analytics Internship
+
+</div>
+
+<div class="certificate-card">
+
+MERN Full Stack
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
 
 <section id="contact">
-<h2>Contact</h2>
-<div class="card">
-<p><b>Email:</b> jamunajothivel@gmail.com</p>
-<p><b>Phone:</b> +91 90420 27516</p>
-<p><b>Location:</b> Namakkal, Tamil Nadu</p>
-<form onsubmit="event.preventDefault();alert('Thank you for your message!');">
-<input placeholder="Your Name">
-<input type="email" placeholder="Email">
-<textarea rows="5" placeholder="Message"></textarea>
-<button type="submit">Send</button>
+
+<h2 class="heading">
+
+Contact Me
+
+</h2>
+
+<form>
+
+<input
+type="text"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+placeholder="Your Email"
+required>
+
+<textarea
+rows="7"
+placeholder="Message">
+</textarea>
+
+<button type="submit">
+
+Send Message
+
+</button>
+
 </form>
-</div>
+
 </section>
 
+<!-- ================= FOOTER ================= -->
+
 <footer>
-<p>© 2026 Jamuna J | Data Analyst Portfolio</p>
+
+<p>
+
+© 2026 Jamuna J
+
+All Rights Reserved
+
+</p>
+
 </footer>
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
 </body>
 </html>
